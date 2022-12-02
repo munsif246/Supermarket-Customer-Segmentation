@@ -58,3 +58,8 @@ Profile 3 – big family, not educated much, low spending and low income. 
 
 ### K-means Clustering
 
+#### Finding Optimum Number of Clusters
+![image](https://user-images.githubusercontent.com/83495853/205268241-360ae9ab-cbe8-4bdd-9cfe-37b7eeb28eea.png)
+
+
+
