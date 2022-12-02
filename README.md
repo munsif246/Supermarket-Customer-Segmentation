@@ -1,4 +1,4 @@
-# Supermarket-Customer-Segmentation
+# Supermarket Customer Segmentation
 
 ## Introduction
 
@@ -45,10 +45,10 @@ Mean spending of customers who haven't complained at least once is pretty high t
 
 ## Clustering
 ### Latent Profile Analysis
-![image](https://user-images.githubusercontent.com/83495853/205266465-b146fb86-a34d-4de9-867d-f9711305c899.png)
+<img src="https://user-images.githubusercontent.com/83495853/205266465-b146fb86-a34d-4de9-867d-f9711305c899.png" width="600" height="400"/>
 Highest BIC value we got for model (VVV,3) this suggests that our dataset has 3 profiles that allows Varying variances and varying covariances across each profile
 
-![image](https://user-images.githubusercontent.com/83495853/205267272-6b00d630-e800-461b-bfa5-4c3b61c45660.png)
+<img src="https://user-images.githubusercontent.com/83495853/205267272-6b00d630-e800-461b-bfa5-4c3b61c45660.png" width="600" height="400"/>
 
 Profile 1- Average spending, average income, fairly small family size, moderately educated.
 
@@ -59,7 +59,11 @@ Profile 3 – big family, not educated much, low spending and low income. 
 ### K-means Clustering
 
 #### Finding Optimum Number of Clusters
-![image](https://user-images.githubusercontent.com/83495853/205268241-360ae9ab-cbe8-4bdd-9cfe-37b7eeb28eea.png)
+<img src="https://user-images.githubusercontent.com/83495853/205268241-360ae9ab-cbe8-4bdd-9cfe-37b7eeb28eea.png" width="600" height="400"/>
+
+Before clustering the dataset, we need to find the optimal number of clusters in the dataset. We used the disortion score to determine the number of clusters in this case. the greatest bend occurs at index 4, so we proceed the analysis with four clusters. 
+
+## EDA on Clusters
 
 
 
