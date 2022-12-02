@@ -43,6 +43,18 @@ The incomes of seniors and young adults are higher than those of adults and midd
 ![Picture7](https://user-images.githubusercontent.com/83495853/205265135-01a5af51-39ac-4452-8033-980f0689901a.jpg)
 Mean spending of customers who haven't complained at least once is pretty high than the who have complained. So we can conclude that customers who doesn't complain tendspend more on the company products.
 
-## Advanced Analysis
+## Clustering
+### Latent Profile Analysis
+![image](https://user-images.githubusercontent.com/83495853/205266465-b146fb86-a34d-4de9-867d-f9711305c899.png)
+Highest BIC value we got for model (VVV,3) this suggests that our dataset has 3 profiles that allows Varying variances and varying covariances across each profile
 
+![image](https://user-images.githubusercontent.com/83495853/205267272-6b00d630-e800-461b-bfa5-4c3b61c45660.png)
+
+Profile 1- Average spending, average income, fairly small family size, moderately educated.
+
+Profile 2 – high spending, highly educated, higher number of purchase, less children, small family size and with high income
+
+Profile 3 – big family, not educated much, low spending and low income. 
+
+### K-means Clustering
 
