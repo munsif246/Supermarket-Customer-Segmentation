@@ -25,6 +25,9 @@ From the below plots we can observe that people with child are more likely to re
 
 According to the correlation heat map income variable has positive linear relationships with Total spending and Total number of purchases.  Also, Total number of purchases and total spending variables are highly correlated.  
 
+![rsz_1picture5](https://user-images.githubusercontent.com/83495853/205262259-c5347f38-a851-43ba-9447-0056da005725.png)   
+Customers with basic knowledge have less income as well as they spend less when compare to the graduate and post- graduate people. 
+
 ![rsz_picture1](https://user-images.githubusercontent.com/83495853/205260742-7151e048-3d5c-4d0a-b237-57daffce9db3.png) 50.2% of the Total amounts were spent on Wine in last 2 years. So wine is the most selling product in the company and it is followed by gold.
 
 ![Picture2](https://user-images.githubusercontent.com/83495853/205260906-b126d2b9-132f-45b9-8394-ab4b44ffd002.png) ![Picture3](https://user-images.githubusercontent.com/83495853/205261344-50d4fd78-068d-45c4-beb6-568c9292daa8.png) ![Picture4](https://user-images.githubusercontent.com/83495853/205261374-29539b17-6af8-475f-859f-e13afefe2e8a.png)
