@@ -25,8 +25,6 @@ From the below plots we can observe that people with child are more likely to re
 
 According to the correlation heat map income variable has positive linear relationships with Total spending and Total number of purchases.  Also, Total number of purchases and total spending variables are highly correlated.  
 
-![rsz_1picture5](https://user-images.githubusercontent.com/83495853/205262259-c5347f38-a851-43ba-9447-0056da005725.png)   
-Customers with basic knowledge have less income as well as they spend less when compare to the graduate and post- graduate people. 
 
 ![rsz_picture1](https://user-images.githubusercontent.com/83495853/205260742-7151e048-3d5c-4d0a-b237-57daffce9db3.png) 50.2% of the Total amounts were spent on Wine in last 2 years. So wine is the most selling product in the company and it is followed by gold.
 
@@ -34,5 +32,17 @@ Customers with basic knowledge have less income as well as they spend less when 
 
 From the above plots itcan be said that More than 50% of the customers of the company are graduates but PHD holders have the highest average spending that the rest and also PHD holders more likely to respond to deal offers than the rest.
 
+![rsz_1picture5](https://user-images.githubusercontent.com/83495853/205262259-c5347f38-a851-43ba-9447-0056da005725.png)
+
+Customers with basic knowledge have less income as well as they spend less when compare to the graduate and post- graduate people. 
+
+![Picture6](https://user-images.githubusercontent.com/83495853/205264648-da96cd02-41c1-4253-9892-82f9c19a45a6.png)
+
+The incomes of seniors and young adults are higher than those of adults and middle-aged.
+
+![Picture7](https://user-images.githubusercontent.com/83495853/205265135-01a5af51-39ac-4452-8033-980f0689901a.jpg)
+Mean spending of customers who haven't complained at least once is pretty high than the who have complained. So we can conclude that customers who doesn't complain tendspend more on the company products.
+
+## Advanced Analysis
 
 
