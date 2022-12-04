@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Churnly</title>
+	<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='ecom.css') }}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="header" style="background-image:linear-gradient(rgba(9,8,20,0.7),rgba(0,0,0,0.7)),url({{url_for('static', filename = 'b5.png')}});">
+		<nav>
+			<a href={{ url_for('home')}}><img src ="{{url_for('static', filename = 'Cargomatic.png')}}"></a>
+			<div class="nav-links">
+				<ul>
+				<span class = "dropdown1">
+					<li class="dropbtn"><a href=""> PRODUCTS</a></li>
+					<span class = "drop1">
+						<div class="dropdown-content">
+							<a href={{ url_for('service')}}>EXPLORE</a>
+						  </div>
+					  </span>
+				</span>
+				<span class = "dropdown2">
+					<li class="dropbtn"><a href=""> SERVICES</a></li>
+					<div class="dropdown-content">
+						<a href={{ url_for('analytics')}}>ECOMMERCE ANALYTICS</a>
+						<a href="#">SURVEY </a>
+					  </div>
+				</span>
+				<span class = "dropdown3">
+					<li class="dropbtn"><a href=""> RESOURCES</a></li>
+					<div class="dropdown-content">
+						<a href="#">EBOOKS & GUIDE</a>
+						<a href="#">FREE COURSES</a>
+					  </div>
+				</span>
+				<span class = "dropdown4">
+					<li class="dropbtn"><a href=""> ABOUT US</a></li>
+					<div class="dropdown-content">
+						<a href="#">ABOUT US</a>
+						<a href="#">CONTACT US</a>
+						
+					  </div>
+				</span>
+				
+					<!--<li><a href="{{ url_for('login')}}"> Login</a></li>-->
+				</ul>
+			</div>
+			
+			
+			
+		</nav>
+		<div style="color:white;font-size:60px;width:700px; margin-top:200px; margin-left:450px;">
+			<center>LEARN MORE ABOUT US</center>
+		</div>
+		<br><br><br><br><br><br>
+	
+	</section>
+	<section class = "secabout" >
+		<div class="aboutus">
+			<h1 align="center" style="font-size:40px;color:#fc2803;">ABOUT US </h1><br>
+			<p> Churnly’s artificial intelligence gathers customer data and predicts which customers are likely to churn at each stage of the journey. 
+			Our software identifies patterns which determine why a customer may leave, helping you take the necessary action to retain them before it’s too late.
+			Churnly views each seat as a sub-customer, which enables you to quickly understand what revenue is at risk for every paying seat.
+			Activity and engagement are key indicators that your customers are successful with your product.
+			Churnly uses Machine Learning to weight and track all user engagement across your product, giving you immediate insight to who is at risk and 
+			needs attention.</P>
+			<p>Churnly’s predictive insights show you how much revenue you’re at risk of losing, 
+			and from whom, so your teams can intervene early, keep revenue and grow faster.</p>
+		</div>
+		
+		<div class = "abusiamge" style="margin-left:10px;">
+			<img src ="{{url_for('static', filename = 'Depositphotos2.jpg')}}", width="500px" height="400px">
+		</div>
+	</section>
+	
+	<section class= our-team-sec>
+		<div id = "ourTeam" class="our-team">
+		<h1 style="color:white;text-align:center;padding-top:20px"> Our Team</h1><br><br>
+		<img src ="{{url_for('static', filename = 'avatar.jpg')}}">
+		<img src ="{{url_for('static', filename = 'avatar-1.jpg')}}">
+		<img src ="{{url_for('static', filename = 'avatar-2.jpg')}}">
+		<img src ="{{url_for('static', filename = 'depositphotos.jpg')}}">
+		<img src ="{{url_for('static', filename = 'depositphotos-smiling.jpg')}}">
+		</div>
+		<div class="our-team-position">
+			<b style="margin-left:110px;color:white;">Managing director</b>
+			<b style="margin-left:135px;color:white;">Senior Data Scientist </b>
+			<b style="margin-left:125px;color:white;">Full-stack Developer</b>
+			<b style="margin-left:149px;color:white;">Data Analyst</b>
+			<b style="margin-left:120px;color:white;">Machine learning Engineer</b>
+		</div>
+		<br><br>
+	</section>
+	
+	<section>
+         <div class="container">
+			<div class="image-container"><img src ="{{url_for('static', filename = 'Cargomatic.png')}}", width="400" height="180"></div>
+                <div class="nav-links2">
+				
+				<ul>
+					<li><a href=""> Our Company</a></li>
+					<li><a href=""> Our Location</a></li>
+					<li><a href=""> Help Center</a></li>
+				</ul>
+				<br><br>
+				<HR WIDTH="100%">
+            </div>
+			<div class="contact-links">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-pinterest"></a>
+			</div>
+			<div class = "foot">
+			© CARGOMATIC ™ TECHNOLOGIES LTD. ALL RIGHTS RESERVED
+			</div>
+			
+	</section>
+	
+</body>
+
+</html>

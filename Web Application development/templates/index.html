@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cargomatic</title>
+	<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	 <div id="wrapper">
+	<section class="header">
+		<nav>
+			<a href={{ url_for('home')}}><img src ="{{url_for('static', filename = 'Cargomatic.png')}}"></a>
+			<div class="nav-links">
+				<ul>
+				<span class = "dropdown1">
+					<li class="dropbtn"><a href=""> PRODUCTS</a></li>
+					<span class = "drop1">
+						<div class="dropdown-content">
+							<a href={{ url_for('service')}}>EXPLORE</a>
+						  </div>
+					  </span>
+				</span>
+				<span class = "dropdown2">
+					<li class="dropbtn"><a href=""> SERVICES</a></li>
+					<div class="dropdown-content">
+						<a href={{ url_for('analytics')}}>ECOMMERCE ANALYTICS</a>
+						<a href="#">SURVEY </a>
+					  </div>
+				</span>
+				<span class = "dropdown3">
+					<li class="dropbtn"><a href=""> RESOURCES</a></li>
+					<div class="dropdown-content">
+						<a href="#">EBOOKS & GUIDE</a>
+						<a href="#">FREE COURSES</a>
+					  </div>
+				</span>
+				<span class = "dropdown4">
+					<li class="dropbtn"><a href=""> ABOUT US</a></li>
+					<div class="dropdown-content">
+						<a href={{ url_for('aboutus')}}>ABOUT US</a>
+						<a href="#">CONTACT US</a>
+						
+					  </div>
+				</span>
+				
+					<!--<li><a href="{{ url_for('login')}}"> Login</a></li>-->
+				</ul>
+			</div>
+			
+		</nav>
+		<div id="navbar">
+			<b>
+				<a href="#home">Home</a>
+				<a href="#aboutus">About Us</a>
+				<a href="#CHURNLY">Why Cargomatic</a>
+				<a href="#ourTeam">Our Team</a>
+			</b>
+			</div>
+	<div  class="text-box">
+		<h1>The most common Customer Segmentation Models in eCommerce</h1>
+	</div>
+	<div class = "header-image">
+		<!--<img src ="images/PngItem.png">-->
+	</div>
+	<div class = "header-text">
+		<b> The best way to improve your acquisition and retention strategy.</b><br> 
+	</div>
+	</section>
+	<section>
+		<div class = "introimage">
+			<img src ="{{url_for('static', filename = 'customer-segments.jpg')}}", width="600" height="399">
+		</div>
+		<div class="intro">
+		<h1 style="font-size:45px;color:#e85005;"> What Is Customer Segmentation?</h1><br>
+		<p style="">Businesses have long been aware of the importance of segmenting their customers. After all,
+		not all customers are created equal! By segmenting your customer base, you can create more targeted marketing campaigns and improve your overall ROI.</p><br> 
+		<p>But what is customer segmentation, and how can you go about doing it? If you want to make your business thrive, then you must understand the concept of customer segmentation. 
+		Customer segmentation refers to the process of dividing your customers into specific customer segments or groups based on factors like demographic data, interests,
+		and spending habits. By segmenting your customers in this way, you can create more targeted marketing campaigns and improve your chances of success.</p> <br> 
+		<p>Customer segmentation refers to the process of dividing your customers into specific customer segments or groups based on factors like demographic data, 
+		interests, and spending habits. By segmenting your customers in this way, you can create more targeted marketing campaigns and improve your chances of 
+		success.</p>
+		
+		<h1 style="font-size:45px;color:#e85005;" align="center">Why segment customers?</h1><br>
+		 <ul>
+			<li> Learning about your customers on a deeper level so you can tailor your content to their unique needs and challenges </li>
+			<li> Creating targeted campaigns and ads to resonate with and convert segments of customers </li>
+			<li> Improving your customer service and customer support efforts </li>
+			<li> Helping internal teams prepare for challenges different groups are likely to experience </li>
+			<li> Increasing customer loyalty with customized content and interactions</li>
+			<li> Understanding who your most valuable customers are and why</li>
+			<li> Communicating with segments of customers through preferred channels or platforms.</li>
+		</ul>
+		</div>
+		
+	</section>
+	
+	<br><br>
+	<section style = "padding-left:50px">
+		<div class = "tipsimage">
+			<img src ="{{url_for('static', filename = 'Customer-Segmentation-Featured-Image-3.png')}}", width="550px" height="350px">
+		</div>
+		<div class="tips">
+		<h1 style="font-size:30px;color:#e85005;" align="center"> Some tips to Reduce Customer Churning Rate</h1><br>
+		
+		<ul style ="list list-stylestyle-type:circle; margin-left:70px">
+			<li >Lean into your best customers</li>
+			<li >Be proactive with communication.</li> 
+			<li >Ask for feedback often.</li>
+			<li >Analyze churn when it happens.</li>
+			<li >Stay competitive.</li>
+			<li >Provide excellent customer service.</li>
+			</center>
+		</ul >
+		
+		</div>
+	<br> <br>
+	</section>
+	
+	<br><br>
+	<div id = "aboutus"> </div>
+	<br><br>
+	
+	<br> <br> <br><br>
+	<section>
+		<div id = "CHURNLY" class = "service">
+		<h1 style="font-size:60px;color:#e85005;" align="center">Why Cargomatic </h1><br>
+		<p style="margin-left:80px;font-size: 20px;text-align:center">Choosing the right Customer Success software can be tough, but we make it easy for you. 
+			We enable your team to add layers of customer insight with the help of machine learning predictions 
+			to support your customer success efforts.Churnly provides you with immediate insight to the entire customer journey and predicts which customers and 
+			revenue are most likely to churn.Get started today and prevent your customers from leaving.</p><br><br>
+		<center>
+			<img src ="{{url_for('static', filename = 'ser1.PNG')}}">
+			<img src ="{{url_for('static', filename = 'ser2.PNG')}}">
+			<img src ="{{url_for('static', filename = 'ser3.PNG')}}">
+			<img src ="{{url_for('static', filename = 'ser4.PNG')}}">
+			<img src ="{{url_for('static', filename = 'ser5.PNG')}}">
+		</center>
+		</div>
+	</section>
+	<br><br>
+	<!--<section>
+	<center>
+	<input type="button" id="register_btn" value="PREDICT" onclick="location.href='{{ url_for('service')}}'" />
+	</center>
+	</section>-->
+	<br><br> <br><br>
+	<section>
+         <div class="container">
+			<div class="image-container"><img src ="{{url_for('static', filename = 'Cargomatic.png')}}",width="400" height="180"></div>
+                <div class="nav-links2">
+				
+				<ul>
+					<li><a href=""> Our Company</a></li>
+					<li><a href=""> Our Location</a></li>
+					<li><a href=""> Help Center</a></li>
+				</ul>
+				<br><br>
+				<HR WIDTH="100%">
+            </div>
+			<div class="contact-links">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-pinterest"></a>
+			</div>
+			<div class = "foot">
+			© CARGOMATIC ™ TECHNOLOGIES LTD. ALL RIGHTS RESERVED
+			</div>
+			
+	</section>
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
+
+</div>
+</div>
+</body>
+
+</html>

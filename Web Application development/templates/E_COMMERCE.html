@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Churnly</title>
+	<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='ecom.css') }}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="header">
+		<nav>
+			<a href={{ url_for('home')}}><img src ="{{url_for('static', filename = 'Cargomatic.png')}}"></a>
+			<div class="nav-links">
+				<ul>
+				<span class = "dropdown1">
+					<li class="dropbtn"><a href=""> PRODUCTS</a></li>
+					<span class = "drop1">
+						<div class="dropdown-content">
+							<a href={{ url_for('service')}}>EXPLORE</a>
+						  </div>
+					  </span>
+				</span>
+				<span class = "dropdown2">
+					<li class="dropbtn"><a href=""> SERVICES</a></li>
+					<div class="dropdown-content">
+						<a href={{ url_for('analytics')}}>ECOMMERCE ANALYTICS</a>
+						<a href="#">SURVEY </a>
+					  </div>
+				</span>
+				<span class = "dropdown3">
+					<li class="dropbtn"><a href=""> RESOURCES</a></li>
+					<div class="dropdown-content">
+						<a href="#">EBOOKS & GUIDE</a>
+						<a href="#">FREE COURSES</a>
+					  </div>
+				</span>
+				<span class = "dropdown4">
+					<li class="dropbtn"><a href=""> ABOUT US</a></li>
+					<div class="dropdown-content">
+						<a href={{ url_for('aboutus')}}>ABOUT US</a>
+						<a href="#">CONTACT US</a>
+						
+					  </div>
+				</span>
+				
+					<!--<li><a href="{{ url_for('login')}}"> Login</a></li>-->
+				</ul>
+			</div>
+			
+			
+			
+		</nav>
+		<div style="margin-left:200px; margin-top: 150px;display:inline-block">
+			<span style="position: absolute;right: 300;top: 0;z-index:0;margin-top: 100px; margin-left:300px"><img src ="{{url_for('static', filename = 'Screen-Shot.png')}}", width="500" height="300"></span>
+			<span style="position: absolute;right: 200;top: 200;z-index:1;margin-top: 80px; margin-left:200px""><img src ="{{url_for('static', filename = 'Ecommerce-KPI-dashboard.png')}}", width="500" height="300"></span>
+		</div>
+		<div style="color:white;font-size:60px;width:300px; margin-left:30px;">
+			Monitor and analyze your marketing performance
+		</div>
+		<br><br><br><br><br><br>
+	
+	</section>
+	<section>
+		<div style="font-size:40px;font;color:black;background-color:#F5F4F4">
+			<center style="padding-top:50px;">A real-time dashboard of your online store performance</center>		
+		</div>
+		<div style="font-size:40px;font;color:black;">
+			<img src ="{{url_for('static', filename = 'gtre.PNG')}}", width="100%" height="300">		
+		</div>
+
+	</section>
+	<section>
+		<div style="font;color:black;">
+			<center style="padding-top:50px;">
+			<h2 style="font-size:40px;">Ecommerce Analytics for store owners</h2>
+			<p style="width:70%;font-size:20px;">Metrilo automatically reports on marketing campaign performance, engagement metrics and sales attribution, no manual setup needed. 
+			Monitor your marketing channels, referrals, influencers and coupon codes easily and optimize your marketing spending. You will know exactly 
+			what drives sales for your brand.</p>
+			</center>		
+		</div>
+		<div style="font-size:40px;font;color:black; margin-top:30px;">
+			<center><img src ="{{url_for('static', filename = 'mark.PNG')}}", width="60%" height="300">	</center>	
+		</div>
+		<br><br><br>
+
+	</section>
+	<section>
+         <div class="container">
+			<div class="image-container"><img src ="{{url_for('static', filename = 'Cargomatic.png')}}", width="400" height="180"></div>
+                <div class="nav-links2">
+				
+				<ul>
+					<li><a href=""> Our Company</a></li>
+					<li><a href=""> Our Location</a></li>
+					<li><a href=""> Help Center</a></li>
+				</ul>
+				<br><br>
+				<HR WIDTH="100%">
+            </div>
+			<div class="contact-links">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-pinterest"></a>
+			</div>
+			<div class = "foot">
+			© CARGOMATIC ™ TECHNOLOGIES LTD. ALL RIGHTS RESERVED
+			</div>
+			
+	</section>
+	</section>
+
+
+</body>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Predict Churn</title>
+	<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='model.css') }}" />
+    <script language="javascript" type="text/javascript" src="{{ url_for('static', filename='asd.js') }}"></script>
+</head>
+<body style="background-color:#F6F0E8;">
+	<div>
+	<center>
+	<section style="display:block;">
+	<h1 Style = "color:#F09310;font-size:50px">TYPES OF CUSTOMERS</h1>
+		<div style="width:30%;background-color:#E9DCD9;border-radius:30px; padding:10px; margin:40px;display: inline-block;">
+			<h1 Style = "color:#10F07E">High spenders</h1>
+			<p>Every online shop should have some customers that spend a lot more than the average. They can either shop very often or they make large orders. Either way, 
+			they’re valuable for you because they make you far better profit than others who cost the same to acquire.High spenders should be treated probably 
+			best of all customers and kept for as long as possible. They are the most important target customer segment. Your communication and offers for them 
+			should show appreciation and make their shopping experience pleasant and convenient.</p>
+		</div>
+		<div style="width:35%;background-color:#E9DCD9;border-radius:40px; padding:10px; margin:40px; display: inline-block;">
+			<h1 Style = "color:#10F07E">Coupon lovers</h1>
+			<p>If you use coupons, there are probably customers who only buy with a coupon and never pay full price. While this is kind of annoying, you 
+			can turn it into an advantage and stimulate more orders from these people – the coupon lovers. Here’s the trick: filter your customer database by 
+			the action performed – “used a coupon”. At this point, it doesn’t matter which one. Then, add another filter – the number of orders equals 1.That’s a 
+			workaround if your CRM can show you customers who only buy with a coupon directly (like 2 coupons used, 2 orders), go for it.The last option is to tag 
+			them for each coupon and explore if the number of tags matches the number of orders.</p>
+		</div>
+		<div style="width:35%;background-color:#E9DCD9;border-radius:40px; padding:10px; margin:40px; display: inline-block;">
+			<h1 Style = "color:#10F07E">indecisive buyers</h1>
+			<p>I bet you have a few customers who browse your site a lot but buy rarely. They might be chatting with live assistance or abandoning 
+			carts all the time. They find it hard to make a decision and you’re losing their orders.How to find them?Filter all customers by the number of 
+			sessions (choose a good enough number like 7) and then by the number of orders (quite small like 3). Thus, you make sure those people browse 
+			twice as often as they buy</p>
+		</div>
+		<div style="width:35%;background-color:#E9DCD9;border-radius:40px; padding:10px; margin:40px; display: inline-block;">
+			<h1 Style = "color:#10F07E">Idle customers</h1>
+			<p>Need a few hundred in revenue to hit the target this month? Why don’t you make a habit of reconnecting with idle customers and bringing them 
+			back to shop?Who is that? Those who haven’t been active on your site in the last 2 months, let say. You can choose what period makes sense for 
+			your kind of products – devices are shopped for far less often than food.Apply a filter for last session or last activity and you get a list 
+			of potential buyers.</p>
+		</div>
+	</section>
+	</center>
+	<div>
+	<section>
+
+     <!-- Main Input For Receiving Query to our ML -->
+ 
+	
+	 <div class="container">
+        <header>Customer details</header>
+
+        <form action="{{ url_for('results')}}">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Education</label>
+                            <select id ="Education">
+                                <option disabled selected>Select Qualification</option>
+                                <option>Graduate</option>
+                                <option>Masters</option>
+                                <option>PHd</option>
+								<option>Other</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input id = "Birth" type="date" placeholder="Enter birth date" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Marital Status</label>
+                            <select required id = "Marital">
+                                <option disabled selected> Select Marital Status</option>
+                                <option>Single</option>
+                                <option>Married</option>
+                                <option>Divorced</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Age</label>
+                            <input id = "Age" type="number" placeholder="Enter Customer Age" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Number of purchases</label>
+                            <input id = "purchases" type="number" placeholder="Number of purchases" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Total Spent</label>
+                            <input id = "TotalSpent" type="number" placeholder="Enter Total amount spent" required>
+                        </div>
+						
+						<div class="input-field">
+                            <label>Joined Year</label>
+                            <input id = "JoinedYear" type="number" placeholder="YYYY" min="1999" max="2020">
+                        </div>
+						
+						<div class="input-field">
+                            <label>Number of Children</label>
+                            <input id = "Nofchildren" type="number" placeholder="Number of Children" >
+                        </div>
+						
+						<div class="input-field">
+                            <label>Last Buy Date</label>
+                            <input id = "BuyDate" type="date" placeholder="Enter birth date" >
+                        </div>
+						
+						<div class="input-field">
+                            <label>Income</label>
+                            <input id = "Income" type="number" placeholder="Enter Income of the customer" >
+                        </div>
+						
+						
+                </div>
+				<div>
+							<button onClick="testJS()" id="register_btn" type="submit" class="btn btn-primary btn-block btn-large" style="margin-top:20px;"><b>PREDICT</b></button>
+						</div>
+
+         
+            </div>
+
+            
+        </form>
+    </div>
+
+   
+   <br>
+   <b style="font-size:30px;color:red;">{{ prediction_text }}</b>
+
+
+</section>
+
+</body>
+</html>
+</body>
+</html>
