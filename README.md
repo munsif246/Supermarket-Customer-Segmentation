@@ -1,7 +1,8 @@
 # Supermarket Customer Segmentation
 
+## Deployed web application
 
-
+https://user-images.githubusercontent.com/83495853/205478511-a0180473-cf72-42d0-85bb-1ead36e2675d.mp4
 ## Introduction
 
 Customer segmentation and marketing strategies are two key strategies to focus on the customer value for a business enterprise. Segmentation helps identify or reveal distinct groups of customers who think and function differently and follow varied approaches in their spending and purchasing habits. Analyzing customer behavior and categorization often help to understand the customer needs and identify the target market.
