@@ -2,12 +2,12 @@ import numpy as np
 from flask import Flask, request, jsonify, render_template,redirect, url_for
 import pickle
 
-app = Flask(__name__) #initializing the flask we have to do it
-model = pickle.load(open('Kmeans2.pkl', 'rb')) #always create(not load) a using jupyter notebook not using spyder
+app = Flask(__name__) 
+model = pickle.load(open('Kmeans2.pkl', 'rb')) 
 
 @app.route('/')
 def home():
-    return render_template('index.html') #routing our html file which is in templates folder
+    return render_template('index.html') 
 
 @app.route('/service')
 def service():
@@ -29,7 +29,7 @@ def login():
 def results():
     return render_template('results.html')
 
-@app.route('/predict',methods=['GET','POST']) #if we run http://127.0.0.1:5000/predict this code under this will be executed
+@app.route('/predict',methods=['GET','POST']) 
 def predict():
     
     if request.method == 'POST':
@@ -48,11 +48,8 @@ def predict():
             x="Cluter4"
         return render_template('model.html', prediction_text='The Cluter Customer belong to is {}'.format(x))
    
-    #output = round(prediction[0], 2)# rounding off the output to 2nd decimal
 
     
-
-##these things are for request.py
 
 
 if __name__ == "__main__":
