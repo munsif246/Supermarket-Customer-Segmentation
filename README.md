@@ -11,9 +11,6 @@ Customer segmentation and marketing strategies are two key strategies to focus o
 
 Businesses are increasing their expenditure on marketing strategies toachieve competitive advantage. Understanding customers prior to marketing or manufacturing and modifying products is essential for the survival of the business. Customer segmentation is one of the most used techniques to analyze customer behaviors. Results obtained from this analysis may help the organization to understand the characteristics of each customer segments.
 
-## Dataset 
-Source: https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
-
 ## EDA
 
 ![ed2](https://user-images.githubusercontent.com/83495853/205257749-64826eee-38bb-4420-be7b-84b3dbcf5f28.png) ![ed2](https://user-images.githubusercontent.com/83495853/205257749-64826eee-38bb-4420-be7b-84b3dbcf5f28.png)
