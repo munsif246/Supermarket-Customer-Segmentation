@@ -39,9 +39,13 @@ def predict():
         
         x=""
         if(prediction==0):
-            x="Churn"
+            x="Cluster1"
+        elif (prediction==1):
+            x="Cluter2"
+        elif (prediction==2):
+            x="Cluter3"
         else:
-            x="not Churn"
+            x="Cluter4"
         return render_template('model.html', prediction_text='The Customer will {}'.format(x))
    
     #output = round(prediction[0], 2)# rounding off the output to 2nd decimal
