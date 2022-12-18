@@ -47,7 +47,7 @@ The incomes of seniors and young adults are higher than those of adults and midd
 Mean spending of customers who haven't complained at least once is pretty high than the who have complained. So we can conclude that customers who doesn't complain tendspend more on the company products.
 
 ## Clustering
-### Latent Profile Analysis
+### Latent Profile Analysis (done using R)
 <img src="https://user-images.githubusercontent.com/83495853/205266465-b146fb86-a34d-4de9-867d-f9711305c899.png" width="600" height="400"/>
 Highest BIC value we got for model (VVV,3) this suggests that our dataset has 3 profiles that allows Varying variances and varying covariances across each profile
 
