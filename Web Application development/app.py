@@ -46,7 +46,7 @@ def predict():
             x="Cluter3"
         else:
             x="Cluter4"
-        return render_template('model.html', prediction_text='The Customer will {}'.format(x))
+        return render_template('model.html', prediction_text='The Cluter Customer belong to is {}'.format(x))
    
     #output = round(prediction[0], 2)# rounding off the output to 2nd decimal
 
