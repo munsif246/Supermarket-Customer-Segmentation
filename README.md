@@ -64,6 +64,14 @@ Profile 3 – big family, not educated much, low spending and low income. 
 Before clustering the dataset, we need to find the optimal number of clusters in the dataset. We used the disortion score to determine the number of clusters in this case. the greatest bend occurs at index 4, so we proceed the analysis with four clusters. 
 
 ## EDA on Clusters
+<img src="https://user-images.githubusercontent.com/83495853/208286198-4e35cd02-e291-4a6f-8cc6-2c571329d64b.png" width="600" height="400"/>
+<ul>
+<li>cluster 0: high spending & average income</li>
+<li>cluster 1: average spending & low income</li>
+<li>cluster 2: low spending & low income</li>
+<li>cluster 3: high spending & high income</li>
+</ul>
+<img src="https://user-images.githubusercontent.com/83495853/208286366-9e01649d-aa46-4720-b04b-61a940457c30.png" width="400" height="300"/> The plot shows that the average number of purchases for clusters 3 and cluster 0 is quite high, whereas clusters 1 and cluster 2 have a low average purchase.
 
-
-
+<img src="https://user-images.githubusercontent.com/83495853/208286571-1f41835d-8021-47b7-bfee-14b1bc9c3d4a.png" width="400" height="300"/> 
+Cluster 0 and cluster 1 are highly attracted to deal purchases than the other two clusters.
