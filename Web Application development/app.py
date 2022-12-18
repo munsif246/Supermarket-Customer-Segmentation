@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template,redirect, url_for
 import pickle
 
 app = Flask(__name__) #initializing the flask we have to do it
-model = pickle.load(open('Random_Forest.pkl', 'rb')) #always create(not load) a using jupyter notebook not using spyder
+model = pickle.load(open('Kmeans.pkl', 'rb')) #always create(not load) a using jupyter notebook not using spyder
 
 @app.route('/')
 def home():
